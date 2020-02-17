@@ -11,42 +11,6 @@
         "connections" : [ {
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
-          "bends" : [ {
-            "x" : 884.0,
-            "y" : 125.0
-          }, {
-            "x" : 884.0,
-            "y" : 175.0
-          } ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "0660fe78-8904-373b-9f49-1b02838ae7ae",
-            "id" : "b99ae3d3-e5f1-3099-bedd-b0cd6490d163",
-            "name" : "CompressContent",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "0660fe78-8904-373b-9f49-1b02838ae7ae",
-          "identifier" : "9acadca6-3c08-3a08-a7b4-fea4940665ac",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "failure" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "0660fe78-8904-373b-9f49-1b02838ae7ae",
-            "id" : "b99ae3d3-e5f1-3099-bedd-b0cd6490d163",
-            "name" : "CompressContent",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
