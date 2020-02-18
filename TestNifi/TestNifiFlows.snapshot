@@ -87,6 +87,36 @@
           },
           "flowFileExpiration" : "0 sec",
           "groupIdentifier" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+          "identifier" : "fad386f1-8caa-3010-a8f7-5e6a4defef86",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+            "id" : "43bf5591-35e9-3ef8-b594-16eee092514f",
+            "name" : "PutEmail",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+            "id" : "a00bb7e6-9fef-3ad5-a51d-cfdd97ec9259",
+            "name" : "LogAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
           "identifier" : "9c480809-64af-38de-8ef2-f46add018261",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
