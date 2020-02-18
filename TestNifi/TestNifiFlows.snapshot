@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+            "groupId" : "d6dad149-d2fa-3908-b0ba-826b50798827",
             "id" : "a00bb7e6-9fef-3ad5-a51d-cfdd97ec9259",
             "name" : "LogAttribute",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+          "groupIdentifier" : "d6dad149-d2fa-3908-b0ba-826b50798827",
           "identifier" : "9c480809-64af-38de-8ef2-f46add018261",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -32,7 +32,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+            "groupId" : "d6dad149-d2fa-3908-b0ba-826b50798827",
             "id" : "64085394-9cc0-3c9e-ba26-c9f7a3b3f8a4",
             "name" : "GenerateFlowFile",
             "type" : "PROCESSOR"
@@ -41,14 +41,14 @@
         } ],
         "controllerServices" : [ ],
         "funnels" : [ ],
-        "identifier" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+        "identifier" : "d6dad149-d2fa-3908-b0ba-826b50798827",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "TestBucketFlow",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 288.0,
-          "y" : -288.0
+          "x" : 298.0,
+          "y" : 71.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -63,7 +63,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+          "groupIdentifier" : "d6dad149-d2fa-3908-b0ba-826b50798827",
           "identifier" : "64085394-9cc0-3c9e-ba26-c9f7a3b3f8a4",
           "name" : "GenerateFlowFile",
           "penaltyDuration" : "30 sec",
@@ -76,6 +76,7 @@
             "File Size" : "0B",
             "Batch Size" : "1",
             "Unique FlowFiles" : "false",
+            "TestVariable" : "${TestVariable}",
             "Data Format" : "Text"
           },
           "propertyDescriptors" : {
@@ -109,6 +110,12 @@
               "name" : "Unique FlowFiles",
               "sensitive" : false
             },
+            "TestVariable" : {
+              "displayName" : "TestVariable",
+              "identifiesControllerService" : false,
+              "name" : "TestVariable",
+              "sensitive" : false
+            },
             "Data Format" : {
               "displayName" : "Data Format",
               "identifiesControllerService" : false,
@@ -135,7 +142,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+          "groupIdentifier" : "d6dad149-d2fa-3908-b0ba-826b50798827",
           "identifier" : "a00bb7e6-9fef-3ad5-a51d-cfdd97ec9259",
           "name" : "LogAttribute",
           "penaltyDuration" : "30 sec",
@@ -208,7 +215,9 @@
           "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],
-        "variables" : { }
+        "variables" : {
+          "TestVariable" : "testProd"
+        }
       },
       "flowEncodingVersion" : "1.0",
       "parameterContexts" : { }
