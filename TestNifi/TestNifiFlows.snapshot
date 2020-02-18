@@ -706,6 +706,7 @@
             "dbf-default-precision" : "10",
             "Max Wait Time" : "0 seconds",
             "Database Connection Pooling Service" : "2fa5363b-fdb4-387c-85d7-2d4adb2a6923",
+            "sql-post-query" : "select * from test",
             "dbf-user-logical-types" : "false",
             "dbf-default-scale" : "10",
             "compression-format" : "NONE",
