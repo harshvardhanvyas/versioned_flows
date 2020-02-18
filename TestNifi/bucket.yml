@@ -1,6 +1,6 @@
 flows:
-  dd4f8854-c016-4994-93d3-27c545e1a330: {ver: 5, file: TestNifiFlows.snapshot, comments: Change
-      frequency from 100 to 200., author: anonymous, created: 1582010320482, flowName: TestNifiFlows,
+  dd4f8854-c016-4994-93d3-27c545e1a330: {ver: 6, file: TestNifiFlows.snapshot, comments: Change
+      frequency, author: anonymous, created: 1582010684569, flowName: TestNifiFlows,
     flowDesc: ''}
 layoutVer: 1
 bucketId: 19acc340-7544-4d11-a3f4-e81784211abb
