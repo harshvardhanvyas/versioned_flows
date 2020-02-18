@@ -1,6 +1,6 @@
 flows:
-  dd4f8854-c016-4994-93d3-27c545e1a330: {ver: 3, file: TestNifiFlows.snapshot, comments: Added
-      Variable, author: anonymous, created: 1582009400028, flowName: TestNifiFlows,
+  dd4f8854-c016-4994-93d3-27c545e1a330: {ver: 4, file: TestNifiFlows.snapshot, comments: Change
+      Frequency, author: anonymous, created: 1582010104654, flowName: TestNifiFlows,
     flowDesc: ''}
 layoutVer: 1
 bucketId: 19acc340-7544-4d11-a3f4-e81784211abb
