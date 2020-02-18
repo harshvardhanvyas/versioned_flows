@@ -1,7 +1,7 @@
 flows:
-  dd4f8854-c016-4994-93d3-27c545e1a330: {ver: 7, file: TestNifiFlows.snapshot, comments: Added
-      mysql processor., author: anonymous, created: 1582016624453, flowName: TestNifiFlows,
-    flowDesc: ''}
+  dd4f8854-c016-4994-93d3-27c545e1a330: {ver: 8, file: TestNifiFlows.snapshot, comments: Added
+      variables in controller services, author: anonymous, created: 1582017619871,
+    flowName: TestNifiFlows, flowDesc: ''}
   f281a12a-7a39-4fce-900c-21660951ccc2: {ver: 1, file: Dsp_BidStatus.snapshot, comments: '',
     author: anonymous, created: 1582012031926, flowName: Dsp_BidStatus, flowDesc: ''}
 layoutVer: 1

@@ -95,11 +95,11 @@
             "dbcp-min-evictable-idle-time" : "30 mins",
             "Max Total Connections" : "8",
             "dbcp-max-conn-lifetime" : "-1",
-            "Database Connection URL" : "jdbc:mysql://192.168.0.121:3306/nifiTest",
+            "Database Connection URL" : "${mysqlJdbcUrl}",
             "dbcp-time-between-eviction-runs" : "-1",
             "Database User" : "root",
             "dbcp-soft-min-evictable-idle-time" : "-1",
-            "database-driver-locations" : "/home/sneha/mysql-jar/mysql-connector-java-5.1.30/mysql-connector-java-5.1.30-bin.jar",
+            "database-driver-locations" : "${driverLocation}",
             "dbcp-max-idle-conns" : "8"
           },
           "propertyDescriptors" : {
@@ -492,7 +492,9 @@
         } ],
         "remoteProcessGroups" : [ ],
         "variables" : {
-          "TestVariable" : "testDev"
+          "mysqlJdbcUrl" : "jdbc:mysql://192.168.0.121:3306/nifiTest",
+          "TestVariable" : "testDev",
+          "${driverLocation}" : "/home/sneha/mysql-jar/mysql-connector-java-5.1.30/mysql-connector-java-5.1.30-bin.jar"
         }
       },
       "flowEncodingVersion" : "1.0",
