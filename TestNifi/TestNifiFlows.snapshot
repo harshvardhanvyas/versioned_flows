@@ -263,6 +263,7 @@
             "SMTP Port" : "25",
             "SMTP Auth" : "true",
             "Include All Attributes In Message" : "false",
+            "SMTP Hostname" : "xyz.com",
             "Subject" : "Message from NiFi",
             "SMTP X-Mailer Header" : "NiFi",
             "Content Type" : "text/plain",
