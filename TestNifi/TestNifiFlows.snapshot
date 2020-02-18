@@ -230,11 +230,11 @@
         "identifier" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
         "inputPorts" : [ ],
         "labels" : [ ],
-        "name" : "TestBucketFlow",
+        "name" : "RegistryTest",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 288.0,
-          "y" : -288.0
+          "x" : 128.0,
+          "y" : -304.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -580,7 +580,7 @@
             "Max Wait Time" : "0 seconds",
             "Database Connection Pooling Service" : "65c4d637-5a5e-3159-871b-7f8ec168a6c6",
             "dbf-user-logical-types" : "false",
-            "dbf-default-scale" : "0",
+            "dbf-default-scale" : "10",
             "compression-format" : "NONE",
             "esql-output-batch-size" : "0",
             "esql-fetch-size" : "0",
