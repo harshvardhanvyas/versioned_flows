@@ -81,6 +81,36 @@
           "destination" : {
             "comments" : "",
             "groupId" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+            "id" : "13bb21c6-265b-3dd3-8687-257d0f879a54",
+            "name" : "LogAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+          "identifier" : "af7ccc5d-8c7d-37a4-84ec-74f82270bb87",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "failure" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
+            "id" : "43bf5591-35e9-3ef8-b594-16eee092514f",
+            "name" : "PutEmail",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "9b0e3e48-cc78-3f65-8d79-b8ce355aa4fa",
             "id" : "a00bb7e6-9fef-3ad5-a51d-cfdd97ec9259",
             "name" : "LogAttribute",
             "type" : "PROCESSOR"
@@ -712,7 +742,7 @@
           "type" : "org.apache.nifi.processors.standard.ExecuteSQL",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ ],
+          "autoTerminatedRelationships" : [ "success" ],
           "bulletinLevel" : "WARN",
           "bundle" : {
             "artifact" : "nifi-standard-nar",
