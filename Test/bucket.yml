@@ -1,6 +1,8 @@
 flows:
   ac889c08-b9b6-4dec-a05f-1d87243604a2: {ver: 2, file: Bucket1.snapshot, comments: Remove
       loop, author: anonymous, created: 1581942862695, flowName: Bucket1, flowDesc: ''}
+  514b3414-dbb5-4399-948a-c156186f94fc: {ver: 1, file: RegistryTest.snapshot, comments: '',
+    author: anonymous, created: 1582183183045, flowName: RegistryTest, flowDesc: ''}
   ac6a504d-e1a5-4181-a55a-9121fbaee4e8: {ver: 1, file: Publisher_Monthly.snapshot,
     comments: '', author: anonymous, created: 1581944539270, flowName: Publisher_Monthly,
     flowDesc: ''}
