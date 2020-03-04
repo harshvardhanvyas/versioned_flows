@@ -1,4 +1,7 @@
 flows:
+  c1ff9f0e-3c32-4363-9ba3-3c2aca646952: {ver: 1, file: Publisher_Monthly.snapshot,
+    comments: '', author: anonymous, created: 1583320368282, flowName: Publisher_Monthly,
+    flowDesc: ''}
   ea681385-291f-476a-81d9-e5530aaee00a: {ver: 1, file: k.snapshot, comments: '', author: anonymous,
     created: 1583319764404, flowName: k, flowDesc: ''}
 layoutVer: 1
